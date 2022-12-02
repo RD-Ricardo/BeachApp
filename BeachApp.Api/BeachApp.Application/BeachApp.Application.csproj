@@ -9,6 +9,8 @@
   <ItemGroup>
     <Folder Include="Consultas\" />
     <Folder Include="Comandos\" />
+    <Folder Include="Dtos\" />
+    <Folder Include="ValidacoesGlobais\" />
   </ItemGroup>
 
 </Project>

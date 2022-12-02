@@ -1,6 +1,8 @@
-﻿namespace BeachApp.Domain.Entidades.EntidadeBase
+﻿using BeachApp.Domain.Entidades.EntidadeConfig;
+
+namespace BeachApp.Domain.Entidades.EntidadeConfig
 {
-    public abstract class EntidadeBase
+    public abstract class EntidadeBase : IEntidade
     {
         public int Id { get; set; }
         public DateTime  DataCriacao { get; set; } = DateTime.Now;
